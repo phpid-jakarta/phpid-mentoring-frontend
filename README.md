@@ -2,11 +2,12 @@
 
 PHPID Mentoring Program - Frontend Code
 
-![TemplateBy Evie](https://img.shields.io/badge/Evie-Template-blue.svg) [![Travis](https://img.shields.io/travis/phpid-jakarta/phpid-mentoring-frontend.svg)](https://travis-ci.org/phpid-jakarta/phpid-mentoring-frontend)
+![Evie](https://img.shields.io/badge/Evie-byUndraw-blue.svg) [![Travis](https://img.shields.io/travis/phpid-jakarta/phpid-mentoring-frontend.svg)](https://travis-ci.org/phpid-jakarta/phpid-mentoring-frontend)
 
-## Development Site
+## Live Site
 
-- [phpid-mentoring-frontend](phpid-jakarta/phpid-mentoring-frontend)
+- Development: [phpid-mentoring.netlify.com/](https://phpid-mentoring.netlify.com/)
+- Production: `N/A`
 
 ## Original Template
 
