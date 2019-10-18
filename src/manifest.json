@@ -1,0 +1,20 @@
+{
+  "name": "PHPID - Mentoring Program",
+  "short_name": "PHPID-Mentor",
+  "start_url": "/?utm_source=launcher",
+  "theme_color": "#4f4cfc",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

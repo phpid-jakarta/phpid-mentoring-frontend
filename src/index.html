@@ -2,9 +2,21 @@
 <html lang='en'>
 
 <head>
-	<meta class="utf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="robots" content="index,follow">
 	<title>PHPID - Mentoring Program</title>
+	<meta name="description" content="Program mentoring dari Komunitas PHPID">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#4f4cfc">
+	<meta name="apple-mobile-web-app-title" content="PHPID-Mentor">
+
 	<!-- Don't forget to add your metadata here -->
 	<link rel='stylesheet' href='css/style.less' />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -47,11 +59,11 @@
 			<div class="container">
 				<div class="hero__content">
 					<div class="hero__content__inner" id='navConverter'>
-						<h1 class="hero__title">PHPID Community mempersembahkan</h1>
+						<h1 class="hero__title">Komunitas PHPID mempersembahkan</h1>
 						<p class="hero__text">Program mentorship dari para mentor terbaik pada bidangnya untuk para member terpilih
 						</p>
 						<a href="#" class="button button__accent">Registrasi</a>
-						<a href="#" class="button hero__button">Cari tahu lebih banyak</a>
+						<a href="#steps" class="button hero__button">Cari tahu lebih banyak</a>
 					</div>
 				</div>
 			</div>
@@ -68,7 +80,7 @@
 		</span>
 	</div>
 	<!-- Steps -->
-	<div class="steps landing__section">
+	<div class="steps landing__section" id="steps">
 		<div class="container">
 			<h2>Kenapa kamu harus ikut?</h2>
 			<p>Beberapa hal yang bisa jadi pertimbangkan kalian untuk bergabung dengan program ini</p>
@@ -97,9 +109,9 @@
 					<div class="step__media">
 						<img src="./images/undraw_referral_4ki4.svg" class="step__image">
 					</div>
-					<h4>Dipandu Sampai Akhir</h4>
+					<h4>One-on-One</h4>
 					<p class="step__text">
-						Kami pastikan mentor akan memandu kalian dengan baik sampai kalian bisa membuat sesuatu
+						Sebisa mungkin kami akan pasangkan satu mentor khusus bagi setiap mentee
 					</p>
 				</div>
 			</div>
@@ -110,13 +122,25 @@
 		<div class="container">
 			<div class="expanded__inner">
 				<div class="expanded__media">
-					<img src="./images/undraw_browser.svg" class="expanded__image">
+					<img src="./images/undraw_reading_list_4boi.svg" class="expanded__image">
 				</div>
 				<div class="expanded__content">
-					<h2 class="expanded__title">Natural styling with almost nothing to learn</h2>
-					<p class="expanded__text">Evie brings you the pages you'll need and the structure to create your own, without
-						a learning curve. It is minimal and mostly styles plain elements. There are only a few classes you'll need
-						to know but nothing to disrupt your preferred coding style.</p>
+					<h2 class="expanded__title">Bagaimana Aturan Mainnya?</h2>
+					<p class="expanded__text">
+						<ul>
+							<li>Teknik belajar One-on-One</li>
+							<li>Topik bebas sesuai pilihan mentor</li>
+							<li>1 topik lamanya adalah 8x diskusi maksimum 2 bulan</li>
+							<li>Mentor bisa punya lebih dari 1 mentee dengan jadwal yang disepakati bersama</li>
+							<li>Tidak ada hak dan kewajiban apapun, karena baik mentor dan mentee bisa menghentikan program kapanpun
+							</li>
+							<li>Mekanisme diskusi belajar dilakukan berdasarkan kesepakatan bersama bisa online, offline, kelas
+								gabungan, dsb</li>
+							<li>Komunitas PHPID hanya menjadi perantara untuk mencari calon mentor dan mentee serta mempertemukannya
+								tapi keputusan akhir siapa mentee yang dipilih ada ditangan mentor</li>
+							<li>Komunitas PHPID akan memiliki mekanisme menilai kualitas baik mentee maupun mentor</li>
+						</ul>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -125,12 +149,13 @@
 		<div class="container">
 			<div class="expanded__inner">
 				<div class="expanded__media">
-					<img src="./images/undraw_frameworks.svg" class="expanded__image">
+					<img src="./images/undraw_work_chat_erdt.svg" class="expanded__image">
 				</div>
 				<div class="expanded__content">
-					<h2 class="expanded__title">Framework agnostic. Your front-end setup, your choice.</h2>
-					<p class="expanded__text">Evie has zero dependencies and uses vanilla JavaScript for a few functions with
-						minimal footprint. You can use React, Vue, Angular, jQuery or whatever you prefer.</p>
+					<h2 class="expanded__title">Dari kita, untuk kita, oleh kita</h2>
+					<p class="expanded__text">
+						Komunitas PHPID berusaha menjadi jembatan, tapi pada dasarnya keseluruhan datangnya dari kita semua, untuk kebaikan dan kemajuan kita bersama, dan dijalankan oleh kita bersama secara gotong-royong.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -139,13 +164,13 @@
 		<div class="container">
 			<div class="expanded__inner">
 				<div class="expanded__media">
-					<img src="./images/together.svg" class="expanded__image">
+					<img src="./images/undraw_Group_chat_unwm.svg" class="expanded__image">
 				</div>
 				<div class="expanded__content">
-					<h2 class="expanded__title">Ready for production or rapid prototyping</h2>
-					<p class="expanded__text">Landing, authentication and a few other pages to select from, despite the small
-						size. Tested on production at unDraw with amazing speeds and unopinionated on how to structure your project.
-						We really hope you'll find it awesome and useful!</p>
+					<h2 class="expanded__title">Sudah siap belajar bersama kami?</h2>
+					<p class="expanded__text">
+						Belajar sendirian memang menyenangkan, tapi lebih enak kalau bisa belajar bersama-sama dengan bimbingan oleh orang yang sudah terbukti ahli di bidang keilmuannya.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -175,19 +200,19 @@
 
 				<div class="footer__data">
 					<div class="footer__data__item">
-						<div class="footer__row">
+						<!-- <div class="footer__row">
 							Created by <a href="https://twitter.com/ninalimpi" target="_blank" class="footer__link">Katerina
 								Limpitsouni</a>
 						</div>
 						<div class="footer__row">
 							Code/design by <a href="https://twitter.com/anges244" target="_blank" class="footer__link">Aggelos
 								Gesoulis</a>
-						</div>
+						</div> -->
 					</div>
 					<div class="footer__data__item">
-						<div class="footer__row">Created for <a href="https://undraw.co" target="_blank"
+						<!-- <div class="footer__row">Created for <a href="https://undraw.co" target="_blank"
 								class="footer__link">unDraw</a>
-						</div>
+						</div> -->
 					</div>
 					<div class="footer__data__item">
 						<div class="footer__row">
