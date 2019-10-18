@@ -1,9 +1,9 @@
 # phpid-mentoring-frontend
+
+![Evie](https://img.shields.io/badge/Evie-byUndraw-blue.svg) [![Travis](https://img.shields.io/travis/phpid-jakarta/phpid-mentoring-frontend.svg)](https://travis-ci.org/phpid-jakarta/phpid-mentoring-frontend)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 PHPID Mentoring Program - Frontend Code
-
-![Evie](https://img.shields.io/badge/Evie-byUndraw-blue.svg) [![Travis](https://img.shields.io/travis/phpid-jakarta/phpid-mentoring-frontend.svg)](https://travis-ci.org/phpid-jakarta/phpid-mentoring-frontend)
 
 ## Live Site
 
@@ -14,6 +14,36 @@ PHPID Mentoring Program - Frontend Code
 
 - [Evie](https://evie.undraw.co) from [unDraw](https://undraw.co)
 
+## Development
+
+- Prerequisite
+
+  + [x] [Latest Node LTS](https://nodejs.org/en/download/) or via [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md)
+  + [x] [Yarn](https://yarnpkg.com/lang/en/docs/install/)
+
+- Install deps
+
+```bash
+yarn
+# or
+npm i
+```
+
+- Running in local
+
+```bash
+yarn dev
+# or
+npm run dev
+```
+
+- Build for production
+
+```bash
+yarn build
+# or
+npm run build
+```
 
 ----
 
