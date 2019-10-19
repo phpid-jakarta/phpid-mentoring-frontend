@@ -1,6 +1,6 @@
 # phpid-mentoring-frontend
 
-![Evie](https://img.shields.io/badge/Evie-byUndraw-blue.svg) [![Travis](https://img.shields.io/travis/phpid-jakarta/phpid-mentoring-frontend.svg)](https://travis-ci.org/phpid-jakarta/phpid-mentoring-frontend)
+![Evie](https://img.shields.io/badge/Evie-by_Undraw-blue.svg) [![Travis](https://img.shields.io/travis/phpid-jakarta/phpid-mentoring-frontend.svg)](https://travis-ci.org/phpid-jakarta/phpid-mentoring-frontend)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 PHPID Mentoring Program - Frontend Code
@@ -10,8 +10,9 @@ PHPID Mentoring Program - Frontend Code
 - Development: [phpid-mentoring.netlify.com/](https://phpid-mentoring.netlify.com/)
 - Production: `N/A`
 
-## Original Template
+## Built with
 
+- Parcel.js
 - [Evie](https://evie.undraw.co) from [unDraw](https://undraw.co)
 
 ## Development
